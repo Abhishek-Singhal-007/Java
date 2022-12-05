@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HolloSquare{
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in); // make a obj for take input
@@ -13,5 +15,6 @@ public class HolloSquare{
             } // end of j loop
             System.out.println();
         } // end of i loop
+        sc.close();
     } // end of main
 } // end of class
